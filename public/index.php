@@ -1,12 +1,12 @@
 <?php
 
-require_once __DIR__ . '/bootstrap.php';
+require_once __DIR__ . '/../bootstrap.php';
 
 use Handlr\Core\Kernel;
 use Handlr\Core\Request;
 use Handlr\Core\Response;
 
-$kernel = new Kernel(HANDLR_APP_DIR);
+$kernel = new Kernel(HANDLR_APP_APP_PATH);
 
 $request = Request::fromGlobals();
 $response = new Response;
