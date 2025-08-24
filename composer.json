@@ -1,10 +1,10 @@
 {
-  "name": "phillipsharring/handlr-app",
+  "name": "phillipsharring/handlr-app-skeleton",
   "description": "A app skeleton for phillipsharring/handlr, lightweight PHP middleware style framework",
   "version": "0.1.0",
   "type": "project",
   "keywords": [ "framework", "handlr" ],
-  "homepage": "https://github.com/phillipsharring/handlr",
+  "homepage": "https://github.com/phillipsharring/handlr-app-skeleton",
   "minimum-stability": "stable",
   "license": "MIT",
   "scripts": {
@@ -24,7 +24,7 @@
     "psr/log": "^3.0",
     "vlucas/phpdotenv": "^5.6",
     "ramsey/uuid": "^4.7",
-    "phillipsharring/handlr": "dev-main"
+    "phillipsharring/handlr-framework": "dev-main"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"

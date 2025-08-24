@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4895bc37deaa0dbbe2ef2ae037fc4520",
+    "content-hash": "bcc321776a8f714190671588dfacd115",
     "packages": [
         {
             "name": "brick/math",
@@ -129,17 +129,17 @@
             "time": "2024-07-20T21:45:45+00:00"
         },
         {
-            "name": "phillipsharring/handlr",
+            "name": "phillipsharring/handlr-framework",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phillipsharring/handlr.git",
-                "reference": "075892464e03e370e9d1f1b560a6486d91814b76"
+                "url": "https://github.com/phillipsharring/handlr-framework.git",
+                "reference": "df3c17fdc732848355c667d15aa03d9601e2a090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phillipsharring/handlr/zipball/075892464e03e370e9d1f1b560a6486d91814b76",
-                "reference": "075892464e03e370e9d1f1b560a6486d91814b76",
+                "url": "https://api.github.com/repos/phillipsharring/handlr-framework/zipball/df3c17fdc732848355c667d15aa03d9601e2a090",
+                "reference": "df3c17fdc732848355c667d15aa03d9601e2a090",
                 "shasum": ""
             },
             "require": {
@@ -176,10 +176,10 @@
                 "handlr"
             ],
             "support": {
-                "issues": "https://github.com/phillipsharring/handlr/issues",
-                "source": "https://github.com/phillipsharring/handlr/tree/main"
+                "issues": "https://github.com/phillipsharring/handlr-framework/issues",
+                "source": "https://github.com/phillipsharring/handlr-framework/tree/main"
             },
-            "time": "2025-08-24T03:27:24+00:00"
+            "time": "2025-08-24T03:50:18+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -1766,7 +1766,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phillipsharring/handlr": 20,
+        "phillipsharring/handlr-framework": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
