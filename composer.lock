@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phillipsharring/handlr.git",
-                "reference": "9f72e023709553b920ca30a7688bb1b23495d3f2"
+                "reference": "075892464e03e370e9d1f1b560a6486d91814b76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phillipsharring/handlr/zipball/9f72e023709553b920ca30a7688bb1b23495d3f2",
-                "reference": "9f72e023709553b920ca30a7688bb1b23495d3f2",
+                "url": "https://api.github.com/repos/phillipsharring/handlr/zipball/075892464e03e370e9d1f1b560a6486d91814b76",
+                "reference": "075892464e03e370e9d1f1b560a6486d91814b76",
                 "shasum": ""
             },
             "require": {
@@ -179,7 +179,7 @@
                 "issues": "https://github.com/phillipsharring/handlr/issues",
                 "source": "https://github.com/phillipsharring/handlr/tree/main"
             },
-            "time": "2025-08-24T02:11:56+00:00"
+            "time": "2025-08-24T03:27:24+00:00"
         },
         {
             "name": "phpoption/phpoption",
