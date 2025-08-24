@@ -13,7 +13,7 @@
       "php -S localhost:8000 -t public"
     ],
     "test": "pest",
-    "migrate": "php ./vendor/phillipsharring/handlr-framework/src/scripts/migrate.php up 1"
+    "migrate": "php ./vendor/phillipsharring/handlr-framework/scripts/migrate.php up 1"
   },
   "authors": [
     {
