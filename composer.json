@@ -2,7 +2,7 @@
   "name": "phillipsharring/handlr-app",
   "description": "A app skelton for phillipsharring/handlr, lightweight PHP middlware style framework",
   "version": "0.1.0",
-  "type": "library",
+  "type": "project",
   "keywords": [ "framework", "handlr" ],
   "homepage": "https://github.com/phillipsharring/handlr",
   "minimum-stability": "stable",
