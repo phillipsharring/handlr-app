@@ -1,6 +1,6 @@
 {
   "name": "phillipsharring/handlr-app-skeleton",
-  "description": "A app skeleton for phillipsharring/handlr, lightweight PHP middleware style framework",
+  "description": "A app skeleton for phillipsharring/handlr-framework, a lightweight PHP middleware style framework",
   "version": "0.1.0",
   "type": "project",
   "keywords": [ "framework", "handlr" ],
@@ -8,7 +8,10 @@
   "minimum-stability": "stable",
   "license": "MIT",
   "scripts": {
-    "start": "php -S localhost:8000 -t public",
+    "dev": [
+      "Composer\\Config::disableProcessTimeout",
+      "php -S localhost:8000 -t public"
+    ],
     "test": "pest",
     "migrate": "php ./vendor/phillipsharring/handlr/src/scripts/migrate.php up 1"
   },
