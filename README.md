@@ -17,9 +17,24 @@ composer global require phillipsharring/handlr-installer:dev-main --prefer-stabl
 handlr new my-project
 # where my-project is the name of your project directory
 ```
+
 ### Using Composer
 
 ```bash
 composer create-project phillipsharring/handlr-app my-project
 # where my-project is the name of your project directory
 ```
+
+### Clone the repository
+
+```bash
+git clone git@github.com:phillipsharring/handlr-app.git my-project
+
+cd my-project
+
+rm -rf .git
+composer install
+
+# optional, if you want to start a new git repository
+git init
+
