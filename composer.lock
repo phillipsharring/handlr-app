@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phillipsharring/handlr-framework.git",
-                "reference": "df3c17fdc732848355c667d15aa03d9601e2a090"
+                "reference": "cbabb557815ddd6c82c6d75a03f7fe4ca09a4ccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phillipsharring/handlr-framework/zipball/df3c17fdc732848355c667d15aa03d9601e2a090",
-                "reference": "df3c17fdc732848355c667d15aa03d9601e2a090",
+                "url": "https://api.github.com/repos/phillipsharring/handlr-framework/zipball/cbabb557815ddd6c82c6d75a03f7fe4ca09a4ccc",
+                "reference": "cbabb557815ddd6c82c6d75a03f7fe4ca09a4ccc",
                 "shasum": ""
             },
             "require": {
@@ -179,7 +179,7 @@
                 "issues": "https://github.com/phillipsharring/handlr-framework/issues",
                 "source": "https://github.com/phillipsharring/handlr-framework/tree/main"
             },
-            "time": "2025-08-24T03:50:18+00:00"
+            "time": "2025-08-24T04:32:44+00:00"
         },
         {
             "name": "phpoption/phpoption",
