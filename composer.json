@@ -10,7 +10,7 @@
   "scripts": {
     "start": "php -S localhost:8000 -t public",
     "test": "pest",
-    "migrate": "php ./src/scripts/migrate.php up 1"
+    "migrate": "php ./vendor/phillipsharring/handlr/src/scripts/migrate.php up 1"
   },
   "authors": [
     {
