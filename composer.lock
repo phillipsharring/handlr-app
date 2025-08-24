@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99d873dbde1274a7073e72c288b2e860",
+    "content-hash": "4895bc37deaa0dbbe2ef2ae037fc4520",
     "packages": [
         {
             "name": "brick/math",
@@ -127,6 +127,59 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "phillipsharring/handlr",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phillipsharring/handlr.git",
+                "reference": "9f72e023709553b920ca30a7688bb1b23495d3f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phillipsharring/handlr/zipball/9f72e023709553b920ca30a7688bb1b23495d3f2",
+                "reference": "9f72e023709553b920ca30a7688bb1b23495d3f2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.4",
+                "psr/log": "^3.0",
+                "ramsey/uuid": "^4.7",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Handlr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phillip Harrington",
+                    "email": "phillip@phillipharrington.comngton.com"
+                }
+            ],
+            "description": "Handlr is a lightweight PHP middleware style framework.",
+            "homepage": "https://github.com/phillipsharring/handlr",
+            "keywords": [
+                "framework",
+                "handlr"
+            ],
+            "support": {
+                "issues": "https://github.com/phillipsharring/handlr/issues",
+                "source": "https://github.com/phillipsharring/handlr/tree/main"
+            },
+            "time": "2025-08-24T02:11:56+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -1713,6 +1766,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "phillipsharring/handlr": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
