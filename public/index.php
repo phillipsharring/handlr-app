@@ -6,7 +6,7 @@ use Handlr\Core\Kernel;
 use Handlr\Core\Request;
 use Handlr\Core\Response;
 
-$kernel = new Kernel(HANDLR_APP_APP_PATH);
+$kernel = new Kernel(HANDLR_APP_ROOT);
 
 $request = Request::fromGlobals();
 $response = new Response;
